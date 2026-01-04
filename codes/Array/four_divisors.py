@@ -3,7 +3,7 @@ class Solution:
         total_sum=0
         for num in nums:
             divisor=set()
-            for i in range(1,int(num**0.5)+1):
+            for i in range(1,int(num**0.5)+1): #no new divisor appears beyond square root
                 if num%i==0:
                     divisor.add(i)
                     divisor.add(num//i)
