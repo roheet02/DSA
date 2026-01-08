@@ -8,10 +8,7 @@ class Solution:
             if dp[i][j] is not None:
                 return dp[i][j]
             ans = -10**9
-            ans = max(
-                ans,
-                nums1[i] * nums2[j] + max(0, solve(i + 1, j + 1))
-            )
+            ans = max(ans,nums1[i] * nums2[j] + max(0, solve(i + 1, j + 1)))
             ans = max(ans, solve(i + 1, j))
             ans = max(ans, solve(i, j + 1))
             dp[i][j] = ans
