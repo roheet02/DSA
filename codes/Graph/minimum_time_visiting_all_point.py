@@ -7,4 +7,4 @@ class Solution:
                      abs(p[i][1]-p[i-1][1]))
         return ans
 
-print(Solution().minTimeToVisitAllPoints([[3,2],[-2,2]]))
+print(Solution().minTimeToVisitAllPoints([[3,2],[-2,2]])) 
