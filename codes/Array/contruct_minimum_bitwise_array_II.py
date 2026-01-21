@@ -18,6 +18,4 @@ class Solution:
             result = n - (lowest_set_bit // 2)
             ans.append(result)
         return ans
-
-# Example usage
 print(Solution().minBitwiseArray([2, 3, 5, 7]))
