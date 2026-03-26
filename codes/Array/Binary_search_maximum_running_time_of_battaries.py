@@ -4,7 +4,7 @@ class Solution:
         left, right = 0, total // n #the answer cannot exceed total // n (average time)
         
         while left < right:   #binary search for the maximum feasible time
-            mid = (left + right + 1) // 2  # try a candidate time
+            mid = (left + right + 1) // 2 
             #calculate how many minutes we can support across all computers
             #if each computer must run for 'mid' minutes
             usable = 0

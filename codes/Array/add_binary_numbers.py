@@ -1,5 +1,4 @@
 ## adding binary two numbers 
-
 class Binary:
     def addBinaryNumbers(self,a:str,b:str):
         i,j = len(a)-1,len(b)-1
